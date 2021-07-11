@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    scroll-behavior: smooth ;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif, Arial;  
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;    
+}
+.nav-bar {
+      position: fixed;
+      z-index: 30;
+      background: linear-gradient(to bottom, #141e30, #243b55);
+      top: 0;
+      width: 100%;
+  }
+
+    .nav-bar a {
+        font-weight: 500;
+        font-size: 20px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding: 20px;
+     }
+
+     ul > a:hover {
+        color: #4C6890;
+     }
+
+     article h2{
+        margin-top: 4.5rem;
+        text-align: center;
+        background: #ABB2B9;
+        color: #000;
+     }
+
+     article p {
+         padding: 2rem;
+         font-size: 100%;
+     }
+
+     .img {
+         display:block;
+         margin-left: auto;
+         margin-right: auto;
+         border: 7px solid rgba(92, 117, 131, 0.61);
+         border-radius: 20px;
+         width: 50%;
+         padding: 1rem;
+   }
+
+   div .grid-container {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       flex-wrap: wrap-reverse;
+       grid-gap: 5px;
+       border: 5px solid  #132E47;
+       background: #091723
+   }
+
+   .grid-container > .grid__items {
+       width: 100%;
+       height: 100%;
+       
+   }
+
+   section h3 {
+       font-size: 1.5rem;
+       text-align: center;
+       padding: 1rem;
+   }
+   
+   section .btn {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: .3rem;
+    font-size: 1.3rem;
+    border: 2px solid #532424;
+    transition: all .5s ;
+  }
+
+  .btn:hover {
+      background: #532424;
+  }
+
+  footer {
+      font-size: 1.2rem;
+      background: #000;
+      text-align: center;
+    }
+    
+    .contact__content  p{
+      font-size: 1.4em;
+      padding-bottom: 75px;
+  }
+  
+  .contact-links {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; 
+    }
+    
+    .contact-links a{
+      color: #fff;
+      font-size: 1.5rem;
+      transition: transform .5s;
+  }
+  
+  .contact-links a:hover {
+      transform: translateY(-8px);
+      background: #000;
+    }
+
